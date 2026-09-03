@@ -1,0 +1,53 @@
+Library Management Frontend
+│
+├── 1. Create React + Vite project      npm create vite@latest
+│
+├── 2. Install dependencies
+│      ├── React Router : npm install react-router-dom axios
+│      ├── Axios : npm i axios
+│      └── Tailwind CSS : npm install tailwindcss @tailwindcss/vite
+│
+├── 3. Create folder structure
+│
+├── 4. Setup React Router
+│
+├── 5. Setup Axios
+│
+├── 6. Create Navbar / Layout
+│
+├── 7. Login / Register
+│
+├── 8. Dashboard
+│
+├── 9. Books CRUD UI
+│
+├── 10. Authors CRUD UI
+│
+├── 11. Categories CRUD UI
+│
+├── 12. Borrowings CRUD UI
+│
+├── 13. Connect everything to backend
+│
+├── 14. JWT authentication
+│
+├── 15. Protected routes
+│
+├── 16. Loading & error handling
+│
+└── 17. Final polish + deployment
+
++-------------------------------------------------------------+
+|                          <Navbar />                         |
++-------------------------------------------------------------+
+|           | <main className="flex-1 p-6">                   |
+|           |                                                 |
+| <Sidebar> |    +---------------------------------------+    |
+|           |    |                                       |    |
+|           |    |               <Outlet />              |    |
+|           |    |  (Displays Dashboard, Profile, etc.)  |    |
+|           |    |                                       |    |
+|           |    +---------------------------------------+    |
+|           |                                                 |
++-------------------------------------------------------------+
+|<----------------------- <div className="flex"> ------------->|
