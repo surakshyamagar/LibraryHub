@@ -1,8 +1,6 @@
 // ==========================================
 // ADMIN AUTHORIZATION
 // Only ADMIN can access
-
-
 // ==========================================
 const authorizeAdmin = (req, res, next) => {
 
